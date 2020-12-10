@@ -61,9 +61,9 @@ function mixColors() {
         minRed = maxRed * Math.random();
         minGreen = maxGreen * Math.random();
         minBlue = maxBlue * Math.random();
-        console.log(red, green, blue);
+        // console.log(red, green, blue);
     }
-    console.log(red, green, blue);
+    // console.log(red, green, blue);
 }
 
 function getColorString(redPercentage, greenPercentage, bluePercentage) {
