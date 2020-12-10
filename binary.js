@@ -27,7 +27,6 @@ console.log(window.innerWidth, window.innerHeight, canvas.width, canvas.height);
 function draw() {
     canvas.width = widthUnit * numberOfBits;
     canvas.height = heightUnit * number;
-    fix_dpi();
     for (let n = 0; n < number; n++) {
         let bits = arrayOfBits(n,numberOfBits);
         console.log(bits);
